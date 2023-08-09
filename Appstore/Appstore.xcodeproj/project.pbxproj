@@ -13,6 +13,13 @@
 		B184CB2F2A83C33F00BEF995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B184CB2E2A83C33F00BEF995 /* Assets.xcassets */; };
 		B184CB322A83C33F00BEF995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B184CB302A83C33F00BEF995 /* LaunchScreen.storyboard */; };
 		B184CB402A83CDB000BEF995 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B184CB3F2A83CDB000BEF995 /* BaseTabBarController.swift */; };
+		B184CB482A83D05800BEF995 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B184CB422A83D05700BEF995 /* SearchController.swift */; };
+		B184CB492A83D05800BEF995 /* AppsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B184CB452A83D05800BEF995 /* AppsController.swift */; };
+		B184CB4A2A83D05800BEF995 /* AppsHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B184CB462A83D05800BEF995 /* AppsHeaderController.swift */; };
+		B184CB4B2A83D05800BEF995 /* HorizontalAppsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B184CB472A83D05800BEF995 /* HorizontalAppsController.swift */; };
+		B184CB4F2A83D08800BEF995 /* SocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B184CB4C2A83D08700BEF995 /* SocialApp.swift */; };
+		B184CB502A83D08800BEF995 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B184CB4D2A83D08700BEF995 /* AppGroup.swift */; };
+		B184CB512A83D08800BEF995 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B184CB4E2A83D08800BEF995 /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +32,13 @@
 		B184CB312A83C33F00BEF995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B184CB332A83C33F00BEF995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B184CB3F2A83CDB000BEF995 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		B184CB422A83D05700BEF995 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		B184CB452A83D05800BEF995 /* AppsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsController.swift; sourceTree = "<group>"; };
+		B184CB462A83D05800BEF995 /* AppsHeaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsHeaderController.swift; sourceTree = "<group>"; };
+		B184CB472A83D05800BEF995 /* HorizontalAppsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalAppsController.swift; sourceTree = "<group>"; };
+		B184CB4C2A83D08700BEF995 /* SocialApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialApp.swift; sourceTree = "<group>"; };
+		B184CB4D2A83D08700BEF995 /* AppGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		B184CB4E2A83D08800BEF995 /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		DC9D9EE83F1437B28266935A /* Pods-Appstore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appstore.release.xcconfig"; path = "Target Support Files/Pods-Appstore/Pods-Appstore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +105,9 @@
 		B184CB392A83CCFB00BEF995 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B184CB442A83D05800BEF995 /* Apps */,
+				B184CB412A83D05700BEF995 /* Search */,
+				B184CB432A83D05700BEF995 /* Today */,
 				B184CB3F2A83CDB000BEF995 /* BaseTabBarController.swift */,
 			);
 			path = Controller;
@@ -99,6 +116,9 @@
 		B184CB3A2A83CD0A00BEF995 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B184CB4D2A83D08700BEF995 /* AppGroup.swift */,
+				B184CB4E2A83D08800BEF995 /* SearchResult.swift */,
+				B184CB4C2A83D08700BEF995 /* SocialApp.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -134,6 +154,31 @@
 				B184CB272A83C33E00BEF995 /* SceneDelegate.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B184CB412A83D05700BEF995 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B184CB422A83D05700BEF995 /* SearchController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B184CB432A83D05700BEF995 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		B184CB442A83D05800BEF995 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				B184CB452A83D05800BEF995 /* AppsController.swift */,
+				B184CB462A83D05800BEF995 /* AppsHeaderController.swift */,
+				B184CB472A83D05800BEF995 /* HorizontalAppsController.swift */,
+			);
+			path = Apps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +297,14 @@
 			files = (
 				B184CB262A83C33E00BEF995 /* AppDelegate.swift in Sources */,
 				B184CB282A83C33E00BEF995 /* SceneDelegate.swift in Sources */,
+				B184CB512A83D08800BEF995 /* SearchResult.swift in Sources */,
 				B184CB402A83CDB000BEF995 /* BaseTabBarController.swift in Sources */,
+				B184CB492A83D05800BEF995 /* AppsController.swift in Sources */,
+				B184CB502A83D08800BEF995 /* AppGroup.swift in Sources */,
+				B184CB4A2A83D05800BEF995 /* AppsHeaderController.swift in Sources */,
+				B184CB482A83D05800BEF995 /* SearchController.swift in Sources */,
+				B184CB4F2A83D08800BEF995 /* SocialApp.swift in Sources */,
+				B184CB4B2A83D05800BEF995 /* HorizontalAppsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
