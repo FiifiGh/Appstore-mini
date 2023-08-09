@@ -394,7 +394,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WMC779X7J9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Appstore/Info.plist;
+				INFOPLIST_FILE = Appstore/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -427,7 +427,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WMC779X7J9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Appstore/Info.plist;
+				INFOPLIST_FILE = Appstore/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
