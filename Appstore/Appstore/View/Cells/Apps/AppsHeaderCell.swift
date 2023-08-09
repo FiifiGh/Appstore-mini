@@ -16,7 +16,9 @@ class AppsHeaderCell: UICollectionViewCell {
         iv.contentMode = .scaleAspectFill
         iv.layer.cornerRadius = 12
         iv.clipsToBounds = true
-        iv.backgroundColor = .systemPink
+        iv.backgroundColor = .white
+        iv.layer.borderColor = UIColor.systemGray.cgColor
+        iv.layer.borderWidth = 0.5
         iv.translatesAutoresizingMaskIntoConstraints = false
         return iv
     }()
